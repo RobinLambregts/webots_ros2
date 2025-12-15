@@ -1,0 +1,81 @@
+#VRML_SIM R2025b utf8
+
+WorldInfo {
+  basicTimeStep 32
+  coordinateSystem "ENU"
+}
+
+Viewpoint {
+  orientation -0.6 0.8 0.0 2.0
+  position 0 1 2
+}
+
+TexturedBackground {}
+TexturedBackgroundLight {}
+
+# De vloer
+Floor {
+  size 10 10
+}
+
+# Jouw robot
+Robot {
+  name "MyRobot"
+  controller "my_robot_driver"
+  translation 0 0.025 0
+  rotation 0 1 0 0
+
+  # Lichaam
+  Solid {
+    translation 0 0 0
+    children [
+      Shape {
+        appearance Appearance { material Material { diffuseColor 0 0 1 } }
+        geometry Box { size 0.2 0.05 0.1 }
+      }
+    ]
+  }
+
+  # Link: left wheel
+  Solid {
+    name "left_wheel"
+    translation -0.1 0 0
+    children [
+      Shape {
+        appearance Appearance { material Material { diffuseColor 0 1 0 } }
+        geometry Cylinder { radius 0.03 height 0.02 }
+      }
+    ]
+  }
+
+  # Link: right wheel
+  Solid {
+    name "right_wheel"
+    translation 0.1 0 0
+    children [
+      Shape {
+        appearance Appearance { material Material { diffuseColor 1 0 0 } }
+        geometry Cylinder { radius 0.03 height 0.02 }
+      }
+    ]
+  }
+
+  # Joints
+  HingeJoint {
+    name "left_wheel_joint"
+    device [
+      RotationalMotor { name "left wheel motor" }
+    ]
+    anchor -0.1 0 0
+    axis 0 1 0
+  }
+
+  HingeJoint {
+    name "right_wheel_joint"
+    device [
+      RotationalMotor { name "right wheel motor" }
+    ]
+    anchor 0.1 0 0
+    axis 0 1 0
+  }
+}

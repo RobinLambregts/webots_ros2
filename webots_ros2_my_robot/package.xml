@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <package format="3">
   <name>webots_ros2_my_robot</name>
   <version>0.0.1</version>
@@ -6,9 +5,13 @@
   <maintainer email="you@example.com">Robin Lambregts</maintainer>
   <license>MIT</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
   <depend>webots_ros2_driver</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
 </package>

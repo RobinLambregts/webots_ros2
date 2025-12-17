@@ -55,4 +55,5 @@ PROTO MyRobotProto [
       }
     ]
   }
-} // Zorg ervoor dat dit de ENIGE afsluitende haak is na de Robot-node.
+} 
+# Ensure no text follows the final brace above

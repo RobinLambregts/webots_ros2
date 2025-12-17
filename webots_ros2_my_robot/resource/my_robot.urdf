@@ -21,4 +21,8 @@
     <parent link="base_link"/>
     <child link="right_wheel"/>
   </joint>
+
+  <webots>
+    <plugin type="webots_ros2_my_robot.my_robot_driver.my_robot_driver.MyRobotDriver" />
+  </webots>
 </robot>

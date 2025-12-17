@@ -56,4 +56,3 @@ PROTO MyRobotProto [
     ]
   }
 } 
-# Ensure no text follows the final brace above

@@ -1,0 +1,58 @@
+#VRML_SIM R2023b utf8
+# Template voor jouw ROS 2-geactiveerde robot
+PROTO MyRobotProto [
+  # Definieer de velden die je wilt kunnen aanpassen bij het gebruik van de PROTO
+  field SFVec3f translation 0 0.025 0    # Standaardpositie
+  field SFRotation rotation 0 1 0 0      # Standaardrotatie
+  field SFString name "MyRobot"          # De robotnaam (belangrijk voor ROS 2)
+  field SFString controller "my_robot_driver" # De driver
+  field SFFloat wheelRadius 0.03
+  field SFFloat wheelHeight 0.02
+]
+{
+  # De hoofdnode van de robot
+  Robot {
+    translation IS translation   # Koppel velden aan de node
+    rotation IS rotation
+    name IS name
+    controller IS controller
+    
+    # Hier komt de rest van je robotstructuur (uit my_robot_world.wbt)
+    children [
+      # Lichaam
+      Solid {
+        translation 0 0 0
+        children [
+          Shape {
+            appearance Appearance { material Material { diffuseColor 0 0 1 } }
+            geometry Box { size 0.2 0.05 0.1 }
+          }
+        ]
+      }
+
+      # Link: left wheel
+      Solid {
+        name "left_wheel"
+        translation -0.1 0 0
+        children [
+          Shape {
+            appearance Appearance { material Material { diffuseColor 0 1 0 } }
+            geometry Cylinder { radius IS wheelRadius height IS wheelHeight }
+          }
+        ]
+      }
+      
+      # Link: right wheel
+      Solid {
+        name "right_wheel"
+        translation 0.1 0 0
+        children [
+          Shape {
+            appearance Appearance { material Material { diffuseColor 0 1 0 } }
+            geometry Cylinder { radius IS wheelRadius height IS wheelHeight }
+          }
+        ]
+      }
+    ]
+  }
+} // Zorg ervoor dat dit de ENIGE afsluitende haak is na de Robot-node.

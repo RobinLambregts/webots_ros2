@@ -27,6 +27,9 @@ setup(
         # 3. RESOURCES/URDF: Installeer alle .urdf bestanden uit de resource map
         (os.path.join('share', package_name, 'resource'), 
             glob(os.path.join('resource', '*.urdf'))),
+        
+        (os.path.join('share', package_name, 'protos'), 
+            glob(os.path.join('protos', '*.proto'))),
     ],
     # ... (rest van setup parameters)
     entry_points={

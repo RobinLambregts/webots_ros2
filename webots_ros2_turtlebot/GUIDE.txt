@@ -1,0 +1,22 @@
+rm -rf build/ install/ log/
+source /opt/ros/jazzy/setup.bash
+colcon build
+source install/setup.bash
+
+
+ROBOT OPSTARTEN
+ros2 launch webots_ros2_turtlebot robot_launch.py
+
+BESTURING OPSTARTEN
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true -p use_sim_time:=true
+
+NAVIGATOR OPSTARTEN
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True slam:=True
+
+RVIZ2 OPSTARTEN
+ros2 run rviz2 rviz2
+    -> alle signalen ophalen
+       ros2 topic list
+    -> signalen in rviz2 toevoegen
+    -> TF device
+    -> /scan voor scanning rond robot

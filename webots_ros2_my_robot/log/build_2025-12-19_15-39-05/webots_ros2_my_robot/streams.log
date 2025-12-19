@@ -1,0 +1,46 @@
+[2.024s] Invoking command in '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot': PYTHONPATH=/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/webots_ros2_my_robot build --build-base /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build install --record /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/install.log --single-version-externally-managed install_data
+[2.631s] running egg_info
+[2.639s] creating build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info
+[2.665s] writing build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/PKG-INFO
+[2.674s] writing dependency_links to build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/dependency_links.txt
+[2.678s] writing entry points to build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/entry_points.txt
+[2.687s] writing top-level names to build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/top_level.txt
+[2.692s] writing manifest file 'build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/SOURCES.txt'
+[2.767s] reading manifest file 'build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/SOURCES.txt'
+[2.803s] writing manifest file 'build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info/SOURCES.txt'
+[2.806s] running build
+[2.806s] running build_py
+[2.810s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build
+[2.811s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib
+[2.813s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib/webots_ros2_my_robot
+[2.819s] copying webots_ros2_my_robot/__init__.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib/webots_ros2_my_robot
+[2.831s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib/webots_ros2_my_robot/my_robot_driver
+[2.841s] copying webots_ros2_my_robot/my_robot_driver/my_robot_driver.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib/webots_ros2_my_robot/my_robot_driver
+[2.854s] running install
+[2.862s] running install_lib
+[2.905s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot
+[2.917s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot/my_robot_driver
+[2.930s] copying /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib/webots_ros2_my_robot/my_robot_driver/my_robot_driver.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot/my_robot_driver
+[2.956s] copying /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build/lib/webots_ros2_my_robot/__init__.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot
+[2.978s] byte-compiling /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot/my_robot_driver/my_robot_driver.py to my_robot_driver.cpython-312.pyc
+[3.006s] byte-compiling /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot/__init__.py to __init__.cpython-312.pyc
+[3.029s] running install_data
+[3.035s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/ament_index
+[3.038s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/ament_index/resource_index
+[3.040s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/ament_index/resource_index/packages
+[3.049s] copying resource/webots_ros2_my_robot -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/ament_index/resource_index/packages
+[3.071s] copying package.xml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot
+[3.089s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/launch
+[3.097s] copying launch/my_robot_launch.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/launch
+[3.116s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/worlds
+[3.126s] copying worlds/my_robot_world.wbt -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/worlds
+[3.147s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/resource
+[3.156s] copying resource/my_robot.urdf -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/resource
+[3.176s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/protos
+[3.186s] copying protos/MyRobotProto.proto -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/share/webots_ros2_my_robot/protos
+[3.228s] running install_egg_info
+[3.286s] Copying build/webots_ros2_my_robot/webots_ros2_my_robot.egg-info to /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages/webots_ros2_my_robot-0.0.1-py3.12.egg-info
+[3.475s] running install_scripts
+[3.740s] Installing my_robot_driver script to /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/bin
+[3.749s] writing list of installed files to '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/install.log'
+[3.780s] Invoked command in '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot' returned '0': PYTHONPATH=/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/install/webots_ros2_my_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/webots_ros2_my_robot build --build-base /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/build install --record /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ws/src/webots_ros2/webots_ros2_my_robot/build/webots_ros2_my_robot/install.log --single-version-externally-managed install_data

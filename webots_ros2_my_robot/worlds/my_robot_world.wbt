@@ -527,4 +527,5 @@ MyRobotProto {
   # Je kunt nu de gedefinieerde velden aanpassen
   name "MyRobot" 
   translation -5 -2.5 0.1
+  controller "<extern>"
 }

@@ -4,8 +4,11 @@ colcon build
 source install/setup.bash
 
 
-ROBOT OPSTARTEN
+ROBOT OPSTARTEN MET NAVIGATIE
 ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
+
+ROBOT OPSTARTEN MET SLAM
+ros2 launch webots_ros2_turtlebot robot_launch.py slam:=true
 
 BESTURING OPSTARTEN
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true -p use_sim_time:=true

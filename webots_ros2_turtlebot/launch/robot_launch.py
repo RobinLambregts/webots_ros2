@@ -112,6 +112,7 @@ def generate_launch_description():
                 ('map', nav2_map),
                 ('params_file', nav2_params),
                 ('use_sim_time', use_sim_time),
+                ('autostart', 'true'),
             ],
             condition=launch.conditions.IfCondition(use_nav))
         navigation_nodes.append(turtlebot_navigation)

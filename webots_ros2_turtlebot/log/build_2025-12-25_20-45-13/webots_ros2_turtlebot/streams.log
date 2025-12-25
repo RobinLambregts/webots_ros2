@@ -1,0 +1,47 @@
+[1.782s] Invoking command in '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot': PYTHONPATH=/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/webots_ros2_turtlebot build --build-base /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build install --record /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data
+[2.380s] running egg_info
+[2.388s] creating build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info
+[2.416s] writing build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[2.425s] writing dependency_links to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[2.429s] writing entry points to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[2.439s] writing requirements to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[2.442s] writing top-level names to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[2.448s] writing manifest file 'build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.529s] reading manifest file 'build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.574s] writing manifest file 'build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.577s] running build
+[2.578s] running build_py
+[2.581s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build
+[2.583s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib
+[2.586s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.592s] copying webots_ros2_turtlebot/plugin_example.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.624s] copying webots_ros2_turtlebot/__init__.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.636s] running install
+[2.645s] running install_lib
+[2.694s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot
+[2.705s] copying /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/plugin_example.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot
+[2.731s] copying /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/__init__.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot
+[2.754s] byte-compiling /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot/plugin_example.py to plugin_example.cpython-312.pyc
+[2.781s] byte-compiling /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot/__init__.py to __init__.cpython-312.pyc
+[2.805s] running install_data
+[2.812s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index
+[2.815s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index/resource_index
+[2.818s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.827s] copying resource/webots_ros2_turtlebot -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.844s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.851s] copying launch/robot_launch.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.865s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.871s] copying resource/turtlebot3_burger_example_map.pgm -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.900s] copying resource/turtlebot3_burger_example_map.yaml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.925s] copying resource/turtlebot_webots.urdf -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.943s] copying resource/ros2control.yml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.958s] copying resource/nav2_params.yaml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.986s] creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.994s] copying worlds/turtlebot3_burger_example.wbt -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[3.011s] copying worlds/.turtlebot3_burger_example.wbproj -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[3.029s] copying package.xml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot
+[3.038s] running install_egg_info
+[3.077s] Copying build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot-2025.0.1-py3.12.egg-info
+[3.252s] running install_scripts
+[3.519s] writing list of installed files to '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/install.log'
+[3.551s] Invoked command in '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot' returned '0': PYTHONPATH=/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/webots_ros2_turtlebot build --build-base /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build install --record /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data

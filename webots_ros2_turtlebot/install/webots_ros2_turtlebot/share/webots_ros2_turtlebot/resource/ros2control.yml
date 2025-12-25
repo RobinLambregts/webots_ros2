@@ -14,8 +14,8 @@ diffdrive_controller:
     use_sim_time: true
     
     # BELANGRIJK: Deze namen moeten exact matchen met de URDF
-    left_wheel_names: ["wheel_left_joint"]
-    right_wheel_names: ["wheel_right_joint"]
+    left_wheel_names: ["left wheel motor"]
+    right_wheel_names: ["right wheel motor"]
 
     publish_rate: 50.0
     pose_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]

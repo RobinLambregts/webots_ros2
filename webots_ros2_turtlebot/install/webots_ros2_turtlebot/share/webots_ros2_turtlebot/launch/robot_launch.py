@@ -87,10 +87,13 @@ def generate_launch_description():
         mappings = [('/diffdrive_controller/cmd_vel', '/cmd_vel'), ('/diffdrive_controller/odom', '/odom')]
     else:
         mappings = [('/diffdrive_controller/cmd_vel_unstamped', '/cmd_vel'), ('/diffdrive_controller/odom', '/odom')]
+    with open(robot_description_path, 'r') as infp:
+        robot_desc = infp.read()
+
     turtlebot_driver = WebotsController(
         robot_name='TurtleBot3Burger',
         parameters=[
-            {'robot_description': robot_description_path,
+            {'robot_description': robot_desc,
              'use_sim_time': use_sim_time,
              'set_robot_state_publisher': True},
             ros2_control_params

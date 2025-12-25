@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000477] (webots_ros2_turtlebot) JobQueued: {'identifier': 'webots_ros2_turtlebot', 'dependencies': OrderedDict()}
+[0.001220] (webots_ros2_turtlebot) JobStarted: {'identifier': 'webots_ros2_turtlebot'}
+[0.098981] (-) TimerEvent: {}
+[0.199722] (-) TimerEvent: {}
+[0.300410] (-) TimerEvent: {}
+[0.401160] (-) TimerEvent: {}
+[0.501838] (-) TimerEvent: {}
+[0.602431] (-) TimerEvent: {}
+[0.702927] (-) TimerEvent: {}
+[0.803610] (-) TimerEvent: {}
+[0.904351] (-) TimerEvent: {}
+[1.004942] (-) TimerEvent: {}
+[1.105605] (-) TimerEvent: {}
+[1.206255] (-) TimerEvent: {}
+[1.306915] (-) TimerEvent: {}
+[1.407511] (-) TimerEvent: {}
+[1.508456] (-) TimerEvent: {}
+[1.609343] (-) TimerEvent: {}
+[1.710059] (-) TimerEvent: {}
+[1.818377] (-) TimerEvent: {}
+[1.919048] (-) TimerEvent: {}
+[2.019823] (-) TimerEvent: {}
+[2.120579] (-) TimerEvent: {}
+[2.221238] (-) TimerEvent: {}
+[2.321917] (-) TimerEvent: {}
+[2.422595] (-) TimerEvent: {}
+[2.473976] (webots_ros2_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/webots_ros2_turtlebot', 'build', '--build-base', '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build', 'install', '--record', '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robin', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robin', 'NAME': 'PC-Robin-L', 'WSL_INTEROP': '/run/WSL/611_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/robin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/robin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/robin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/Qt/6.7.3/mingw_64/bin:/mnt/c/Qt/6.7.3/mingw_64/lib:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Flutter/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft MPI/Bin:/mnt/c/Program Files (x86)/Microsoft SDKs/MPI/Include:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/robin/.local/bin:/mnt/c/Users/robin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/robin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Users/robin/AppData/Roaming/npm:/mnt/c/xampp/php:/mnt/c/Users/robin/AppData/Local/ComposerSetup/bin:/mnt/c/Users/robin/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/robin/.dotnet/tools:/mnt/c/Program Files/Maven/apache-maven-3.9.9/bin:/mnt/c/Users/robin/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/ghcup/bin:/mnt/c/Users/robin/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/ninja:/mnt/c/flutter/bin:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/robin/AppData/Local/Pub/Cache/bin:/mnt/c/Users/robin/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[2.522681] (-) TimerEvent: {}
+[2.623318] (-) TimerEvent: {}
+[2.723920] (-) TimerEvent: {}
+[2.824519] (-) TimerEvent: {}
+[2.925307] (-) TimerEvent: {}
+[3.025982] (-) TimerEvent: {}
+[3.126692] (-) TimerEvent: {}
+[3.227176] (-) TimerEvent: {}
+[3.327919] (-) TimerEvent: {}
+[3.404659] (webots_ros2_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[3.413165] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info\n'}
+[3.428037] (-) TimerEvent: {}
+[3.454871] (webots_ros2_turtlebot) StdoutLine: {'line': b'writing build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO\n'}
+[3.468650] (webots_ros2_turtlebot) StdoutLine: {'line': b'writing dependency_links to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt\n'}
+[3.475037] (webots_ros2_turtlebot) StdoutLine: {'line': b'writing entry points to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt\n'}
+[3.481438] (webots_ros2_turtlebot) StdoutLine: {'line': b'writing requirements to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt\n'}
+[3.485680] (webots_ros2_turtlebot) StdoutLine: {'line': b'writing top-level names to build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt\n'}
+[3.494578] (webots_ros2_turtlebot) StdoutLine: {'line': b"writing manifest file 'build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'\n"}
+[3.528193] (-) TimerEvent: {}
+[3.621119] (webots_ros2_turtlebot) StdoutLine: {'line': b"reading manifest file 'build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'\n"}
+[3.628311] (-) TimerEvent: {}
+[3.692064] (webots_ros2_turtlebot) StdoutLine: {'line': b"writing manifest file 'build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'\n"}
+[3.696081] (webots_ros2_turtlebot) StdoutLine: {'line': b'running build\n'}
+[3.697216] (webots_ros2_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[3.702736] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build\n'}
+[3.705002] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib\n'}
+[3.707649] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot\n'}
+[3.718516] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying webots_ros2_turtlebot/plugin_example.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot\n'}
+[3.728452] (-) TimerEvent: {}
+[3.741615] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying webots_ros2_turtlebot/__init__.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot\n'}
+[3.758986] (webots_ros2_turtlebot) StdoutLine: {'line': b'running install\n'}
+[3.770247] (webots_ros2_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[3.827535] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot\n'}
+[3.828577] (-) TimerEvent: {}
+[3.845436] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/plugin_example.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot\n'}
+[3.885972] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/__init__.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot\n'}
+[3.924416] (webots_ros2_turtlebot) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot/plugin_example.py to plugin_example.cpython-312.pyc\n'}
+[3.928706] (-) TimerEvent: {}
+[3.966210] (webots_ros2_turtlebot) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot/__init__.py to __init__.cpython-312.pyc\n'}
+[3.999204] (webots_ros2_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[4.005922] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index\n'}
+[4.008424] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index/resource_index\n'}
+[4.011197] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages\n'}
+[4.021145] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying resource/webots_ros2_turtlebot -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages\n'}
+[4.028837] (-) TimerEvent: {}
+[4.040645] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch\n'}
+[4.051570] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying launch/robot_launch.py -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch\n'}
+[4.075299] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource\n'}
+[4.090478] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying resource/turtlebot3_burger_example_map.pgm -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource\n'}
+[4.125957] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying resource/turtlebot3_burger_example_map.yaml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource\n'}
+[4.128929] (-) TimerEvent: {}
+[4.156714] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying resource/turtlebot_webots.urdf -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource\n'}
+[4.211661] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying resource/ros2control.yml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource\n'}
+[4.229104] (-) TimerEvent: {}
+[4.255859] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying resource/nav2_params.yaml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource\n'}
+[4.305642] (webots_ros2_turtlebot) StdoutLine: {'line': b'creating /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds\n'}
+[4.319690] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying worlds/turtlebot3_burger_example.wbt -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds\n'}
+[4.329197] (-) TimerEvent: {}
+[4.343297] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying worlds/.turtlebot3_burger_example.wbproj -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds\n'}
+[4.367583] (webots_ros2_turtlebot) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot\n'}
+[4.382878] (webots_ros2_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.429366] (-) TimerEvent: {}
+[4.452228] (webots_ros2_turtlebot) StdoutLine: {'line': b'Copying build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots_ros2_turtlebot-2025.0.1-py3.12.egg-info\n'}
+[4.529525] (-) TimerEvent: {}
+[4.630247] (-) TimerEvent: {}
+[4.730995] (-) TimerEvent: {}
+[4.794593] (webots_ros2_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.831125] (-) TimerEvent: {}
+[4.931907] (-) TimerEvent: {}
+[5.032732] (-) TimerEvent: {}
+[5.133407] (-) TimerEvent: {}
+[5.234159] (-) TimerEvent: {}
+[5.293006] (webots_ros2_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/robin/Documents/WEBOTS_SHIT/webots_ros2/webots_ros2_turtlebot/build/webots_ros2_turtlebot/install.log'\n"}
+[5.334283] (-) TimerEvent: {}
+[5.337438] (webots_ros2_turtlebot) CommandEnded: {'returncode': 0}
+[5.434425] (-) TimerEvent: {}
+[5.535053] (-) TimerEvent: {}
+[5.635556] (-) TimerEvent: {}
+[5.670210] (webots_ros2_turtlebot) JobEnded: {'identifier': 'webots_ros2_turtlebot', 'rc': 0}
+[5.680132] (-) EventReactorShutdown: {}

@@ -88,6 +88,12 @@ def generate_launch_description():
         ]    
     with open(robot_description_path, 'r') as infp:
         robot_desc = infp.read()
+        
+    twist_stamper = Node(
+        package='webots_ros2_turtlebot',
+        executable='twist_stamper',
+        output='screen'
+    )
 
     turtlebot_driver = WebotsController(
         robot_name='TurtleBot3Burger',
@@ -152,6 +158,8 @@ def generate_launch_description():
 
         robot_state_publisher,
         footprint_publisher,
+
+        twist_stamper,
 
         turtlebot_driver,
         waiting_nodes,

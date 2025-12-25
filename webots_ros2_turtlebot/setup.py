@@ -43,6 +43,9 @@ setup(
     license='Apache License, Version 2.0',
     tests_require=['pytest'],
     entry_points={
-        'launch.frontend.launch_extension': ['launch_ros = launch_ros']
-    }
+        'console_scripts': [
+            'launch.frontend.launch_extension = launch_ros.launch.frontend.launch_extension',
+            'twist_stamper = webots_ros2_turtlebot.twist_stamper:main',
+        ],
+    },
 )

@@ -3,6 +3,8 @@ source /opt/ros/jazzy/setup.bash
 colcon build
 source install/setup.bash
 
+sudo pkill -f ros
+sudo pkill -f webots
 
 ROBOT OPSTARTEN MET NAVIGATIE
 ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true

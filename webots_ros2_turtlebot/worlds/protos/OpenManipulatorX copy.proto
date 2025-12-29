@@ -1,0 +1,363 @@
+#VRML_SIM R2019a utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the OpenManipulatorX
+# Extracted from: open_manipulator_x.urdf
+
+PROTO OpenManipulatorX [
+  field  SFVec3f     translation  0 0 0
+  field  SFRotation  rotation     0 1 0 0
+  field  SFString    controller   "void"
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    children [
+      Shape {
+        appearance DEF grey PBRAppearance {
+          baseColor 0.200000 0.200000 0.200000
+          transparency 0.000000
+          roughness 1.000000
+          metalness 0
+          emissiveColor 0.000000 0.000000 0.000000
+        }
+        geometry DEF link1 IndexedFaceSet {
+          coord Coordinate {
+            point [
+              ...
+            ]
+          }
+          coordIndex [
+            ...
+          ]
+          creaseAngle 1
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 0.000000 0.000000 1.000000
+          anchor 0.012000 0.000000 0.000000
+          dampingConstant 0.1
+          staticFriction 0.0
+        }
+        device [
+          RotationalMotor {
+            name "joint1"
+            maxVelocity 4.8
+            minPosition -3.141592653589793
+            maxPosition 3.141592653589793
+            maxTorque 1000.0
+          }
+          PositionSensor {
+            name "joint1_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation 0.012000 0.000000 0.000000
+          rotation 0.000000 1.000000 0.000000 0.000000
+          children [
+            Transform {
+              translation 0.000000 0.000000 0.019000
+              rotation 0.000000 1.000000 0.000000 0.000000
+              children [
+                Shape {
+                  appearance USE grey
+                  geometry DEF link2 IndexedFaceSet {
+                    coord Coordinate {
+                      point [
+                        ...
+                      ]
+                    }
+                    coordIndex [
+                      ...
+                    ]
+                    creaseAngle 1
+                  }
+                }
+              ]
+            }
+            HingeJoint {
+              jointParameters HingeJointParameters {
+                axis 0.000000 1.000000 0.000000
+                anchor 0.000000 0.000000 0.059500
+                dampingConstant 0.1
+                staticFriction 0.0
+              }
+              device [
+                RotationalMotor {
+                  name "joint2"
+                  maxVelocity 4.8
+                  minPosition -1.5
+                  maxPosition 1.5
+                  maxTorque 1000.0
+                }
+                PositionSensor {
+                  name "joint2_sensor"
+                }
+              ]
+              endPoint Solid {
+                translation 0.000000 0.000000 0.059500
+                rotation 0.000000 1.000000 0.000000 0.000000
+                children [
+                  Shape {
+                    appearance USE grey
+                    geometry DEF link3 IndexedFaceSet {
+                      coord Coordinate {
+                        point [
+                          ...
+                        ]
+                      }
+                      coordIndex [
+                        ...
+                      ]
+                      creaseAngle 1
+                    }
+                  }
+                  HingeJoint {
+                    jointParameters HingeJointParameters {
+                      axis 0.000000 1.000000 0.000000
+                      anchor 0.024000 0.000000 0.128000
+                      dampingConstant 0.1
+                      staticFriction 0.0
+                    }
+                    device [
+                      RotationalMotor {
+                        name "joint3"
+                        maxVelocity 4.8
+                        minPosition -1.5
+                        maxPosition 1.4
+                        maxTorque 1000.0
+                      }
+                      PositionSensor {
+                        name "joint3_sensor"
+                      }
+                    ]
+                    endPoint Solid {
+                      translation 0.024000 0.000000 0.128000
+                      rotation 0.000000 1.000000 0.000000 0.000000
+                      children [
+                        Shape {
+                          appearance USE grey
+                          geometry DEF link4 IndexedFaceSet {
+                            coord Coordinate {
+                              point [
+                                ...
+                              ]
+                            }
+                            coordIndex [
+                              ...
+                            ]
+                            creaseAngle 1
+                          }
+                        }
+                        HingeJoint {
+                          jointParameters HingeJointParameters {
+                            axis 0.000000 1.000000 0.000000
+                            anchor 0.124000 0.000000 0.000000
+                            dampingConstant 0.1
+                            staticFriction 0.0
+                          }
+                          device [
+                            RotationalMotor {
+                              name "joint4"
+                              maxVelocity 4.8
+                              minPosition -1.7
+                              maxPosition 1.97
+                              maxTorque 1000.0
+                            }
+                            PositionSensor {
+                              name "joint4_sensor"
+                            }
+                          ]
+                          endPoint Solid {
+                            translation 0.124000 0.000000 0.000000
+                            rotation 0.000000 1.000000 0.000000 0.000000
+                            children [
+                              Shape {
+                                appearance USE grey
+                                geometry DEF link5 IndexedFaceSet {
+                                  coord Coordinate {
+                                    point [
+                                      ...
+                                    ]
+                                  }
+                                  coordIndex [
+                                    ...
+                                  ]
+                                  creaseAngle 1
+                                }
+                              }
+                              SliderJoint {
+                                jointParameters JointParameters {
+                                  axis 0.000000 1.000000 0.000000
+                                  dampingConstant 0.1
+                                  staticFriction 0.0
+                                }
+                                device [
+                                  LinearMotor {
+                                    name "gripper_left_joint"
+                                    maxVelocity 4.8
+                                    minPosition -0.011
+                                    maxPosition 0.02
+                                    maxForce 1000.0
+                                  }
+                                  PositionSensor {
+                                    name "gripper_left_joint_sensor"
+                                  }
+                                ]
+                                endPoint Solid {
+                                  translation 0.081700 0.021000 0.000000
+                                  rotation 0.000000 1.000000 0.000000 0.000000
+                                  children [
+                                    Shape {
+                                      appearance USE grey
+                                      geometry DEF gripper_left_palm IndexedFaceSet {
+                                        coord Coordinate {
+                                          point [
+                                            ...
+                                          ]
+                                        }
+                                        coordIndex [
+                                          ...
+                                        ]
+                                        creaseAngle 1
+                                      }
+                                    }
+                                  ]
+                                  name "gripper_left_link"
+                                  boundingObject USE gripper_left_palm
+                                  physics Physics {
+                                    density -1
+                                    mass 0.001000
+                                    centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                  }
+                                }
+                              }
+                              SliderJoint {
+                                jointParameters JointParameters {
+                                  axis 0.000000 -1.000000 0.000000
+                                  dampingConstant 0.7
+                                  staticFriction 0.0
+                                }
+                                device [
+                                  LinearMotor {
+                                    name "gripper_right_joint"
+                                    maxVelocity 4.8
+                                    minPosition -0.011
+                                    maxPosition 0.02
+                                    maxForce 1000.0
+                                  }
+                                  PositionSensor {
+                                    name "gripper_right_joint_sensor"
+                                  }
+                                ]
+                                endPoint Solid {
+                                  translation 0.081700 -0.021000 0.000000
+                                  rotation 0.000000 1.000000 0.000000 0.000000
+                                  children [
+                                    Shape {
+                                      appearance USE grey
+                                      geometry DEF gripper_right_palm IndexedFaceSet {
+                                        coord Coordinate {
+                                          point [
+                                            ...
+                                          ]
+                                        }
+                                        coordIndex [
+                                          ...
+                                        ]
+                                        creaseAngle 1
+                                      }
+                                    }
+                                  ]
+                                  name "gripper_right_link"
+                                  boundingObject USE gripper_right_palm
+                                  physics Physics {
+                                    density -1
+                                    mass 0.00001000
+                                    centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                  }
+                                }
+                              }
+                              Solid {
+                                translation 0.126000 0.000000 0.000000
+                                rotation 0.000000 1.000000 0.000000 0.000000
+                                children [
+                                  Shape {
+                                    appearance DEF red PBRAppearance {
+                                      baseColor 1.000000 0.000000 0.000000
+                                      transparency 0.000000
+                                      roughness 1.000000
+                                      metalness 0
+                                      emissiveColor 0.000000 0.000000 0.000000
+                                    }
+                                    geometry Box {
+                                       size 0.01 0.01 0.01
+                                    }
+                                  }
+                                ]
+                                name "end_effector_link"
+                                physics Physics {
+                                  density -1
+                                  mass 0.01000000
+                                  centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                }
+                              }
+                            ]
+                            name "link5"
+                            boundingObject USE link5
+                            physics Physics {
+                              density -1
+                              mass 0.00143276
+                              centerOfMass [ 0.044207 0.000000 0.008914 ]
+                            }
+                          }
+                        }
+                      ]
+                      name "link4"
+                      boundingObject USE link4
+                      physics Physics {
+                        density -1
+                        mass 0.00132746
+                        centerOfMass [ 0.090910 0.000389 0.000224 ]
+                      }
+                    }
+                  }
+                ]
+                name "link3"
+                boundingObject USE link3
+                physics Physics {
+                  density -1
+                  mass 0.00138509
+                  centerOfMass [ 0.010308 0.000377 0.101702 ]
+                }
+              }
+            }
+          ]
+          name "link2"
+          boundingObject Transform {
+            translation 0.000000 0.000000 0.019000
+            rotation 0.000000 1.000000 0.000000 0.000000
+            children [
+              USE link2
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.00098407
+            centerOfMass [ -0.000302 0.000540 0.047433 ]
+          }
+        }
+      }
+    ]
+    name "link1"
+    boundingObject USE link1
+    physics Physics {
+      density -1
+      mass 0.00079120
+      centerOfMass [ 0.000309 0.000000 -0.000122 ]
+    }
+  }
+}

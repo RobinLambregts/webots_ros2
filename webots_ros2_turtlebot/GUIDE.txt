@@ -1,10 +1,24 @@
+===========================
+Setup:
+===========================
 rm -rf build/ install/ log/
 source /opt/ros/jazzy/setup.bash
 colcon build
 source install/setup.bash
 
+of: source ./ros_setup_shit.sh (chmod +x ./ros_setup_shit.sh na git clone)
+
+===========================
+Stop ros:
+===========================
 sudo pkill -f ros
 sudo pkill -f webots
+
+of: ./kill_ros_webots.sh (chmod +x ./kill_ros_webots.sh na git clone)
+
+===========================
+Start simulatie
+===========================
 
 ROBOT OPSTARTEN MET NAVIGATIE
 ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
@@ -14,5 +28,8 @@ ros2 launch webots_ros2_turtlebot robot_launch.py slam:=true
 
 BESTURING OPSTARTEN
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true -p use_sim_time:=true
+UH NEEE! HET IS:
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/cmd_vel
+
 
 alles van navigation enz staat in de resource folder

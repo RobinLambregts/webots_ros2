@@ -21,6 +21,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projec
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/objects/tables/protos/Table.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/objects/traffic/protos/DirectionPanel.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/objects/plants/protos/BunchOfSunFlowers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/robots/robotis/open_manipulator/protos/OpenMANIPULATOR.proto"
+
 
 WorldInfo {
   info [
@@ -41,19 +43,16 @@ TexturedBackground {
 TurtleBot3Burger {
   translation 6.36 0 0
   controller "<extern>"
-  controllerArgs [
-    ""
-  ]
+  controllerArgs [ "" ]
   extensionSlot [
-    Solid {
-      name "imu_link"
-    }
-    GPS {
-    }
-    InertialUnit {
-      name "inertial_unit"
-    }
-    RobotisLds01 {
+    Solid { name "imu_link" }
+    GPS {}
+    InertialUnit { name "inertial_unit" }
+    RobotisLds01 {}
+    OpenMANIPULATOR {
+      translation 0 0 0.15   # raise arm to sit on TurtleBot top
+      rotation 0 0 1 0
+      controller "<extern>"
     }
   ]
 }

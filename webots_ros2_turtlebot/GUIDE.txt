@@ -8,6 +8,8 @@ source install/setup.bash
 
 of: source ./ros_setup_shit.sh (chmod +x ./ros_setup_shit.sh na git clone)
 
+Daarna: export WEBOTS_HOME=/mnt/c/Users/houwe/AppData/Local/Programs/Webots
+
 ===========================
 Stop ros:
 ===========================
@@ -31,5 +33,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 UH NEEE! HET IS:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/cmd_vel
 
-
 alles van navigation enz staat in de resource folder
+
+NAVIGATIE
+python3 Maps_to_pose.py

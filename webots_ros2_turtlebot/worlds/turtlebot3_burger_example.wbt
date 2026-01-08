@@ -42,7 +42,7 @@ TexturedBackground {
   skybox FALSE
 }
 TurtleBot3Waffle {
-  translation 6.36 0 0
+  translation 6.36 0 1
   controller "<extern>"
   controllerArgs [
     ""

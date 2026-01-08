@@ -96,7 +96,7 @@ def generate_launch_description():
     )
 
     turtlebot_driver = WebotsController(
-        robot_name='TurtleBot3Burger',
+        robot_name='TurtleBot3Waffle',
         parameters=[
             {'robot_description': robot_desc,
              'use_sim_time': use_sim_time,
@@ -109,7 +109,7 @@ def generate_launch_description():
 
     # Navigation
     navigation_nodes = []
-    os.environ['TURTLEBOT3_MODEL'] = 'burger'
+    os.environ['TURTLEBOT3_MODEL'] = 'waffle'
     nav2_map = os.path.join(package_dir, 'resource', 'turtlebot3_burger_example_map.yaml')
     nav2_params = os.path.join(package_dir, 'resource', 'nav2_params.yaml')
     if 'turtlebot3_navigation2' in get_packages_with_prefixes():

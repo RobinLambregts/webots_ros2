@@ -229,6 +229,64 @@
       </material>
     </visual>
   </link>
+  <gazebo reference="link1">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="link2">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="link3">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="link4">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="link5">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="gripper_left_link">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="gripper_right_link">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>30.0</mu1>
+    <mu2>30.0</mu2>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.001</minDepth>
+  </gazebo>
+  <gazebo reference="end_effector_link">
+  </gazebo>
   <transmission name="trans1">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="joint1">
@@ -289,4 +347,140 @@
       <hardwareInterface>PositionJointInterface</hardwareInterface>
     </actuator>
   </transmission>
+  <ros2_control name="OpenManipulatorXSystem" type="system">
+    <hardware>
+      <plugin>dynamixel_hardware_interface/DynamixelHardware</plugin>
+      <param name="port_name">/dev/ttyUSB0</param>
+      <param name="baud_rate">1000000</param>
+      <param name="error_timeout_ms">500</param>
+      <param name="dynamixel_model_folder">/param/dxl_model</param>
+      <param name="number_of_joints">5</param>
+      <param name="number_of_transmissions">5</param>
+      <param name="disable_torque_at_init">true</param>
+      <param name="dynamixel_state_pub_msg_name">dynamixel_hardware_interface/dxl_state</param>
+      <param name="get_dynamixel_data_srv_name">dynamixel_hardware_interface/get_dxl_data</param>
+      <param name="set_dynamixel_data_srv_name">dynamixel_hardware_interface/set_dxl_data</param>
+      <param name="reboot_dxl_srv_name">dynamixel_hardware_interface/reboot_dxl</param>
+      <param name="set_dxl_torque_srv_name">dynamixel_hardware_interface/set_dxl_torque</param>
+    </hardware>
+    <joint name="joint1">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="joint2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="joint3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="joint4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="gripper_left_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <gpio name="dxl1">
+      <param name="type">dxl</param>
+      <param name="ID">11</param>
+      <command_interface name="Goal Position"/>
+      <state_interface name="Present Position"/>
+      <state_interface name="Present Velocity"/>
+      <state_interface name="Present Current"/>
+      <param name="Operating Mode">3</param>
+      <param name="Position P Gain">800</param>
+      <param name="Position I Gain">100</param>
+      <param name="Position D Gain">100</param>
+      <param name="Profile Velocity">20</param>
+      <param name="Profile Acceleration">10</param>
+      <param name="Drive Mode">4</param>
+      <param name="Return Delay Time">0</param>
+    </gpio>
+    <gpio name="dxl2">
+      <param name="type">dxl</param>
+      <param name="ID">12</param>
+      <command_interface name="Goal Position"/>
+      <state_interface name="Present Position"/>
+      <state_interface name="Present Velocity"/>
+      <state_interface name="Present Current"/>
+      <param name="Operating Mode">3</param>
+      <param name="Position P Gain">800</param>
+      <param name="Position I Gain">100</param>
+      <param name="Position D Gain">100</param>
+      <param name="Profile Velocity">20</param>
+      <param name="Profile Acceleration">10</param>
+      <param name="Drive Mode">4</param>
+      <param name="Return Delay Time">0</param>
+    </gpio>
+    <gpio name="dxl3">
+      <param name="type">dxl</param>
+      <param name="ID">13</param>
+      <command_interface name="Goal Position"/>
+      <state_interface name="Present Position"/>
+      <state_interface name="Present Velocity"/>
+      <state_interface name="Present Current"/>
+      <param name="Operating Mode">3</param>
+      <param name="Position P Gain">800</param>
+      <param name="Position I Gain">100</param>
+      <param name="Position D Gain">100</param>
+      <param name="Profile Velocity">20</param>
+      <param name="Profile Acceleration">10</param>
+      <param name="Drive Mode">4</param>
+      <param name="Return Delay Time">0</param>
+    </gpio>
+    <gpio name="dxl4">
+      <param name="type">dxl</param>
+      <param name="ID">14</param>
+      <command_interface name="Goal Position"/>
+      <state_interface name="Present Position"/>
+      <state_interface name="Present Velocity"/>
+      <state_interface name="Present Current"/>
+      <param name="Operating Mode">3</param>
+      <param name="Position P Gain">800</param>
+      <param name="Position I Gain">100</param>
+      <param name="Position D Gain">100</param>
+      <param name="Profile Velocity">20</param>
+      <param name="Profile Acceleration">10</param>
+      <param name="Drive Mode">4</param>
+      <param name="Return Delay Time">0</param>
+    </gpio>
+    <gpio name="dxl5">
+      <param name="type">dxl</param>
+      <param name="ID">15</param>
+      <command_interface name="Goal Position"/>
+      <state_interface name="Present Position"/>
+      <state_interface name="Present Velocity"/>
+      <state_interface name="Present Current"/>
+      <param name="Operating Mode">5</param>
+      <param name="Profile Velocity">20</param>
+      <param name="Profile Acceleration">10</param>
+      <param name="Drive Mode">5</param>
+      <param name="Return Delay Time">0</param>
+      <param name="Goal Current">200</param>
+      <param name="[unit info]">
+          Present Position,0.000017626621790,m,signed,-0.036099321;
+          Goal Position,0.000017626621790,m,signed,-0.036099321;
+          Present Velocity,0.000275558153557,rad/s,signed,0.0;
+          Goal Velocity,0.000275558153557,rad/s,signed,0.0;
+        </param>
+    </gpio>
+  </ros2_control>
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>/home/ebbew/om_ws/install/open_manipulator_bringup/share/open_manipulator_bringup/config/open_manipulator_x/hardware_controller_manager.yaml</parameters>
+    </plugin>
+  </gazebo>
 </robot>

@@ -1,0 +1,16 @@
+<robot name="turtlebot_with_arm">
+
+  <!-- Include TurtleBot URDF -->
+  <xacro:include filename="$(find turtlebot3_description)/urdf/turtlebot3_burger.urdf"/>
+
+  <!-- Include arm URDF -->
+  <xacro:include filename="$(find webots_ros2_turtlebot)/resources/open_manipulator_x.urdf"/>
+
+  <!-- Fixed joint -->
+  <joint name="arm_mount_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0.07 0 0.015" rpy="0 0 3.14159"/>
+  </joint>
+
+</robot>
